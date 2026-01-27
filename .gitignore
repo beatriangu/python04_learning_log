@@ -34,3 +34,22 @@ Thumbs.db
 *.tmp
 *.swp
 *~
+
+# =========================
+# Project-specific (NOT SUBMITTED)
+# =========================
+tools/
+data_quest_tools/
+attachments/
+
+# =========================
+# Subjects / PDFs (NOT SUBMITTED)
+# =========================
+*.pdf
+
+# =========================
+# Generated files (NOT SUBMITTED)
+# =========================
+ancient_fragment.txt
+new_discovery.txt
+
