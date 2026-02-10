@@ -1,33 +1,33 @@
-# =========================
+# ==================================================
 # Python cache & bytecode
-# =========================
+# ==================================================
 __pycache__/
 *.py[cod]
 
-# =========================
-# Virtual environments
-# =========================
+# ==================================================
+# Virtual environments & secrets
+# ==================================================
 venv/
-.env/
+.env
 .env.*
 
-# =========================
+# ==================================================
 # OS / System files
-# =========================
+# ==================================================
 .DS_Store
 **/.DS_Store
 
-# =========================
-# Logs / temp outputs
-# =========================
+# ==================================================
+# Logs & temporary outputs
+# ==================================================
 *.log
 out.txt
 err.txt
 
-# =========================
-# Generated training files (data_generator)
-# These files are reproducible and not part of the delivery
-# =========================
+# ==================================================
+# Generated training files (reproducible)
+# Not part of the delivery
+# ==================================================
 ancient_fragment.txt
 classified_data.txt
 corrupted_archive.txt
@@ -36,24 +36,18 @@ security_protocols.txt
 sample_data.json
 new_discovery.txt
 
-# =========================
+# ==================================================
 # Generated files inside exercises
-# =========================
+# ==================================================
 ex0/ancient_fragment.txt
-ex3/classified_data.txt
-ex3/security_protocols.txt
 ex2/out.txt
 ex2/err.txt
+ex3/classified_data.txt
+ex3/security_protocols.txt
 
-# =========================
-# Personal learning notes (not part of submission)
-# =========================
-MAP.md
-FAQ.md
-MAP.txt
-FAQ.txt
-# =========================
-# Subject files / tools
-# =========================
+# ==================================================
+# Subject files & provided tools
+# ==================================================
 subject*.pdf
 tools/
+
